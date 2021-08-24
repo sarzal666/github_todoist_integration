@@ -7,7 +7,7 @@
     "build": "webpack --watch --config webpack.config.js",
     "start": "npm-run-all --parallel watch:server watch:build",
     "watch:build": "webpack --watch --config webpack.config.js",
-    "watch:server": "nodemon ./dist/index.bundle.js"
+    "watch:server": "nodemon ./backend/index.js"
   },
   "author": "sarzixon",
   "license": "ISC",
